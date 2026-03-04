@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int merge_count(vector<int> &a , vector<int> &temp , int l , int r) {
+int merge_count(vector<int> &a , vector<int> &temp , int l , int r) { //[l,r)
     if (r-l <= 1) return 0;
 
     int mid = (l+r)/2;
