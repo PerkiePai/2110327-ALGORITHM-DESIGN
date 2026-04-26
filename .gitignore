@@ -1,1 +1,21 @@
-*.exe
+# Ignore everything
+*
+
+# Keep .gitignore itself
+!.gitignore
+
+# Allow Q1-Q4 directories
+!Q1/
+!Q2/
+!Q3/
+!Q4/
+
+# Allow only .cpp and .md files inside Q1-Q4
+!Q1/*.cpp
+!Q1/*.md
+!Q2/*.cpp
+!Q2/*.md
+!Q3/*.cpp
+!Q3/*.md
+!Q4/*.cpp
+!Q4/*.md
